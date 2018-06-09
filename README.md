@@ -13,6 +13,8 @@ not found how to give the extension the required permissions or entitlements (or
 This is the Finder Sync Extension template that comes with XCode, togther with some code to request the extended attribute for 
 each file when a badge is requested.
 
+Run it and attach it to the Finder process, then watch the log output.
+
 Additionally there is a small command like utility to test the extended attributes from a plain command line application.
 
 ### Prerequisites
@@ -22,4 +24,4 @@ it, because otherwise the extension will not receive requestBadgeIdentifierForUR
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
